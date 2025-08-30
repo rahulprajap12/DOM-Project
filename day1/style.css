@@ -1,0 +1,24 @@
+* {
+    text-align: center;
+    padding: 30px;
+}
+#img1{
+    width: 200px;
+    height: 200px;
+    
+}
+#img2{
+    width: 200px;
+    height: 200px;
+}
+#btn{
+   height: 50px;
+   font-size: 20px;
+   background-color: rgb(0, 123, 255);
+   border-radius: 25px; /* Makes the button oval */
+   padding: 0 40px;     /* Adds horizontal padding for a better oval shape */
+   font-weight: bold;
+}
+button:active{
+    scale: 0.95;
+}
