@@ -5,7 +5,7 @@ dtn.addEventListener('click', function() {
 
     if (m > 6) {
         var src = 'chutki.png';
-    } else if (m > 4) {
+    } else if (m > 4) { 
         var src = 'monkey.png';
     } else if (m > 2) {
         var src = 'motu.png';
