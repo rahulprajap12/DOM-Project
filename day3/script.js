@@ -31,7 +31,7 @@ const bollywoodHeroes = [
 const container = document.getElementById("container");
 
 // Only create three cards according to arr data
-bollywoodHeroes.slice(0, 4).forEach((hero) => {
+bollywoodHeroes.forEach((hero) => {
   const cardDiv = document.createElement("div");
   cardDiv.classList.add("card");
   cardDiv.innerHTML = `
